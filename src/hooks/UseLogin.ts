@@ -9,9 +9,9 @@ const useLogin = () => {
 
     const handleLogin = (e: React.MouseEvent<HTMLButtonElement>) => {
         e.preventDefault();
-        if (email === "admin@example.com" && password === "password123") {
+        if (email === "admin@example.com" && password === "123") {
             setError("");
-            router.push("/dashboard/inicial");
+            router.push("http://localhost:3001");
         } else {
             setError("E-mail ou senha inválidos.");
         }
