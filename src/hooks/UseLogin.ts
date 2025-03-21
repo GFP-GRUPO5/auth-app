@@ -1,5 +1,5 @@
-import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 const useLogin = () => {
     const [email, setEmail] = useState("");
@@ -11,7 +11,7 @@ const useLogin = () => {
         e.preventDefault();
         if (email === "admin@example.com" && password === "123") {
             setError("");
-            router.push("http://localhost:3001");
+            router.push("http://localhost:3010");
         } else {
             setError("E-mail ou senha inválidos.");
         }
