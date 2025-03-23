@@ -11,7 +11,7 @@ O protótipo das telas está disponível no [Figma](https://www.figma.com/design
 ## Principais Funcionalidades
 
 ### **Página Home**
-- Apresenta a tela inicial e permite que a pessoa usuária faça o login para entrar na conta. Para fazer Login é necessário usar o e-mail:admin@example.com e a senha:password123
+- Apresenta a tela inicial e permite que a pessoa usuária faça o login para entrar na conta. Para fazer Login é necessário usar o e-mail:admin@example.com e a senha:123
 
 ### **Página Inicial**
 - Possui um menu de navegação entre as páginas da aplicação;
@@ -85,7 +85,7 @@ Para o desenvolvimento do projeto nós seguimos o gui de estilo proposto.
 - **[Context API](https://legacy.reactjs.org/docs/context.html):** Recurso nativo do React para gerenciamento de estado global entre componentes da aplicação.
 - **[Luigi](https://luigi-project.io/):** Recurso para criação e orquestração de microfrontends.
 - **[Docker](https://www.docker.com/):** Recurso para conter aplicações em ambientes isolados da máquina host.
-- **[AWS](https://aws.amazon.com/):** Serviço de hospedagem de aplicações na nuvem.
+- **[Digital Ocean](https://www.digitalocean.com/):** Serviço de hospedagem de aplicações na nuvem.
 
 ## Conceitos e Metodologias Aplicadas
 
